@@ -87,8 +87,8 @@ class CalendarTile extends StatelessWidget {
                           return Container(
                             margin: EdgeInsets.only(
                                 left: 2.0, right: 2.0, top: 1.0),
-                            width: 5.0,
-                            height: 5.0,
+                            width: 25.0,
+                            height: 25.0,
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
                               color: event["isDone"]
